@@ -3,7 +3,7 @@
   <POU Name="FB_System" Id="{5b40ff5c-73f8-4fe6-a7ad-41d6ddec4ec6}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_System
 VAR_INPUT
-	bExecute	: BOOL;
+	bStart		: BOOL;
 END_VAR
 VAR_OUTPUT
 	bError		: BOOL;
